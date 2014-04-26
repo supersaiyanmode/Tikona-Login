@@ -1,0 +1,26 @@
+Tikona-Login
+============
+
+A simple script that you can fire to log you into Tikona network. I agree, their
+login UI is a perfect example of how horrible a webpage can look. Put this
+script in your ~/bin folder (or somewhere), set up alias properly, and next time
+you want to log in, just execute this script.
+
+This script does not use any 3rd party library, so it should work out of the
+box.
+
+Usage
+=====
+
+python tikona-login.py <account_id> <password>
+
+
+
+Set up Alias
+============
+Put this line in the shell specific startup file (~/.bashrc, ~/.zshrc, etc..)
+
+alias tikona-login="python /path/to/tikona-login.py <account_id> <pwd>"
+
+
+Ohh, and BTW, I am just fine with putting my password like that. YMMV. :)
